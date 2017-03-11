@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_normal_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.iclub.tictactocker.NormalGame3"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/normal_game_grid"
+        android:columnCount="4"
+        android:rowCount="4"
+        >
+        <LinearLayout
+            android:id="@+id/z1"
+            android:orientation="vertical"
+            android:layout_margin="2dp">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z2"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z3"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z4"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z5"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z6"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z7"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z8"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z9"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z10"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/z11"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/z12"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/z13"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/z14"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z15"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/z16"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+    </GridLayout>
+
+</LinearLayout>
